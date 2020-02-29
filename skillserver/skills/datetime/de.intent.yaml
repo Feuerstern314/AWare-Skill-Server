@@ -1,0 +1,34 @@
+---
+type: intent
+name: date
+utterances:
+  - wie spät ist es
+  - sag mir die aktuelle zeit
+  - hast du die zeit
+  - wie spät ist es
+  - welchen tag haben wir heute
+  - sag mir die zeit bitte
+  - welches datum haben wir
+  - welcher tag ist es
+  - was sagt die uhr
+  - welche zeit ist auf der uhr
+  - zeit bitte
+  - datum bitte
+  - welches datum
+  - was ist die zeit
+
+
+---
+type: intent
+name: otherdate
+slots:
+  - name: city
+    entity: city
+utterances:
+  - wie spät ist es in [city](vlotho)
+  - sag mir das datum in [city](hamburg)
+  - hast du die zeit von [city](colone)
+  - was ist die zeit von [city](berlin)
+  - welcher tag ist es in [city](usa)
+  - bitte sag mir die zeit von [city](america)
+  - sag mir die zeit in [city](russia)

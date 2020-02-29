@@ -1,0 +1,10 @@
+---
+type: intent
+name: calculate
+utterances:
+  - was ist zehn plus zehn
+  - was ist 10 + 10
+  - was ist das ergebnis von 5 mal sechs
+  - 7 minus acht
+  - 8 - neun
+  - was ist zehn durch sieben

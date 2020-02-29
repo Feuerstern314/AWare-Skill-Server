@@ -1,0 +1,25 @@
+---
+type: intent
+name: countTo
+slots:
+  - name: number
+    entity: snips/number
+utterances:
+  - count up to [number](ten)
+  - count up to [number](10)
+  - count to [number](five)
+  - count to [number](20)
+
+
+---
+type: intent
+name: countFrom
+slots:
+  - name: number
+    entity: snips/number
+utterances:
+  - count down from [number](ten)
+  - count down from [number](10)
+  - count from [number](five)
+  - count from [number](20)
+

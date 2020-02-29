@@ -1,0 +1,25 @@
+---
+type: intent
+name: music
+slots:
+  - name: artist
+    entity: musicArtist
+
+  - name: track
+    entity: musicTrack
+
+utterances:
+  - spiele [track](hello) von [artist](adele)
+  - spiele Musik von [artist](adele)
+  - spiele [track](Dreams) [artist](Blacktop Mojo)
+  - spiele [track](Dieser Weg wird kein leichter sein) [artist](Xavier Naidoo)
+  - spiele [track](Paint It Black) von den [artist](Rolling Stones )
+  - spiele [track](Made By America) von [artist](Eskimo Callboy)
+  - spiele [track](It Wont Last) [artist](Blacktop Mojo)
+  - spiele von [artist](Cassandra Steen) [track](Stadt)
+  - spiele von den [artist](rolling stones) [track](satisfaction)
+  - spiele die [artist](rolling stones) mit [track](satisfaction)
+  - spiele [track](Zwischen Himmel & Hölle) [artist](Kontra K)
+  - spiele von [artist](Kontra K) [track](Fels in der Brandung)
+  - spiele von den [artist](rolling stones) [track](satisfaction)
+  - spiele die [artist](rolling stones) mit [track](satisfaction)

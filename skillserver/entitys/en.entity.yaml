@@ -1,0 +1,20 @@
+---
+type: entity
+name: room
+automatically_extensible: yes
+values:
+- bedroom
+- [living room, main room, lounge]
+- [garden, yard, backyard]
+
+---
+type: entity
+name: appointments
+automatically_extensible: yes
+values:
+- go to school
+- meet friends
+- go to party
+- partying
+- meeting colleagues
+- visiting friends

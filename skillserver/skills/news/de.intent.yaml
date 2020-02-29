@@ -1,0 +1,23 @@
+---
+type: intent
+name: allnews
+utterances:
+  - was sind die Nachrichten
+  - sag mir die Nachrichten
+  - was gibt es neues
+  - sag mir die neusten Nachrichten
+
+---
+type: intent
+name: themenews
+slots:
+  - name: thema
+    entity: newskeys
+utterances:
+  - was gibt es neues beim [thema](bitcoin)
+  - was ist neu beim [thema](fussball)
+  - erzähl mir die nachrichten über [thema](bitcoin)
+  - sag mir das neuste beim [thema](sports)
+  - was sind die [thema](baseball) nachrichten
+  - was ist neu bei [thema](künstliche intelligenz)
+

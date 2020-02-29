@@ -1,0 +1,9 @@
+flask
+snips_nlu
+googletrans
+cython
+cysignals
+pyfasttext
+whatthelang
+wolframalpha
+pandas

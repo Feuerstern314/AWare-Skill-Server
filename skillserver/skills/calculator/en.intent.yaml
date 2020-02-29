@@ -1,0 +1,10 @@
+---
+type: intent
+name: calculate
+utterances:
+  - what is ten plus ten
+  - whats 10 + 10
+  - tell me the result of 5 plus six
+  - 5 - seven
+  - what is seven times five
+  - what is eight by two

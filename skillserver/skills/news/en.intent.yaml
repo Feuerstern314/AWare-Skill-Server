@@ -1,0 +1,24 @@
+---
+type: intent
+name: allnews
+utterances:
+  - tell me the news
+  - what are the news
+  - please tell me the news
+  - can you tell me the news please
+
+
+---
+type: intent
+name: themenews
+slots:
+  - name: thema
+    entity: newskeys
+utterances:
+  - tell me the news about [thema](bitcoin)
+  - what are the news of [thema](football)
+  - please tell me the news about [thema](bitcoin)
+  - can you tell me the news please in [thema](sports)
+  - whats the news about [thema](baseball)
+  - tell me news in [thema](artificial intelligence)
+

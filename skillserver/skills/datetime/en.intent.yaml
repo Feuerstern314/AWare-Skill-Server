@@ -1,0 +1,39 @@
+---
+type: intent
+name: date
+utterances:
+  - what time is it
+  - tell me the actual date
+  - do you have the time
+  - whats the time
+  - what day is it
+  - please tell me the time
+  - please tell me the date
+  - what day do we have
+  - what does the clock say
+  - whats on the clock
+  - time please
+  - date please
+  - how is the date
+  - whats the date
+
+
+---
+type: intent
+name: otherdate
+slots:
+  - name: city
+    entity: city
+utterances:
+  - what time is it in [city](vlotho)
+  - tell me the actual date in [city](hamburg)
+  - do you have the time in [city](colone)
+  - whats the time in [city](berlin)
+  - what day is it in [city](usa)
+  - please tell me the time of [city](america)
+  - please tell me the date of [city](russia)
+  - what day do we have in [city](sweden)
+  - what does the clock say in [city](norway)
+  - whats on the clock in [city](munich)
+  - time in [city](mexico) please
+  - date of [city](germany) please

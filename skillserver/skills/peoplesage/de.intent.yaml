@@ -1,0 +1,10 @@
+---
+type: intent
+name: searchperson
+slots:
+  - name: name
+    entity: names
+utterances:
+  - wie alt ist [name](donald trump)
+  - was ist das alter von [name](merkel)
+  - alter von [name](putin)

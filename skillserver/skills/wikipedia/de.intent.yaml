@@ -1,0 +1,12 @@
+---
+type: intent
+name: searchperson
+slots:
+  - name: name
+    entity: names
+utterances:
+  - wer ist [name](donald trump)
+  - wer ist [name](merkel)
+  - wer ist [name](präsident of usa)
+  - wer ist [name](king of sweden)
+  - wer ist [name](putin)

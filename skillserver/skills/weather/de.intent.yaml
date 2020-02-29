@@ -1,0 +1,19 @@
+---
+type: intent
+name: getweather
+slots:
+  - name: datetime
+    entity: snips/datetime
+
+  - name: city
+    entity: city
+
+utterances:
+  - wie ist das wetter in [city](London)
+  - wie wird das wetter in [city](Hamburg) sein
+  - wie wird das wetter in [city](berlin)
+  - was ist das wetter in [city](London) [datetime](heute)
+  - was wird das wetter sein in [city](Hamburg) [datetime](morgen)
+  - wie wird das wetter sein [city](berlin) [datetime](heute abend)
+  - wie ist das wetter [datetime](Donnerstag) in [city](Bad Oeynhausen)
+

@@ -1,0 +1,25 @@
+---
+type: intent
+name: countTo
+slots:
+  - name: number
+    entity: snips/number
+utterances:
+  - zähle bis [number](zehn)
+  - zähl hoch bis [number](10)
+  - zähl bis [number](fünf)
+  - bis [number](20) zählen
+
+
+---
+type: intent
+name: countFrom
+slots:
+  - name: number
+    entity: snips/number
+utterances:
+  - zähl runter von [number](zehn)
+  - zähle herunter von [number](10)
+  - zähle von [number](fünf)
+  - zähl von [number](20)
+

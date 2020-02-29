@@ -1,0 +1,32 @@
+---
+type: intent
+name: getEvents
+slots:
+  - name: datetime
+    entity: snips/datetime
+    
+utterances:
+  - was für termine habe ich am [datetime](montag) ?
+  - was für termine habe ich
+  - sag mir meine Termine für [datetime](nächsten Samstag)
+  - sag mir meine Termine
+  - erzähl mir von meinem Kalendar
+  - was steht in meinem Kalendar für [datetime](heute)
+  - was ist in meinem Kalendar für [datetime](nächsten Sonntag)
+  - was sagt mein Kalendar [datetime](morgen)
+  - was ist auf meinem kalendar [datetime](übermorgen)
+
+
+---
+type: intent
+name: setEvents
+slots:
+  - name: hobbys
+    entity: appointments 
+  - name: datetime
+    entity: time
+utterances:
+  - Ich gehe ins [hobbys](kino) am [datetime](samstag)
+  - am [datetime](samstag) gehe ich [hobbys](feiern)
+  - mach einen neuen Termin und nenne ihn [hobbys](Fussball) am [datetime](Sonntag den 15.10.2020)
+  - füge [hobbys](reiten) zu meinem kalender hinzu am [datetime](samstag)

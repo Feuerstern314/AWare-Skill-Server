@@ -1,0 +1,101 @@
+---
+type: entity
+name: city
+automatically_extensible: yes
+values:
+- Vlotho
+- Uffeln
+- Aachen
+- Herford
+- Vimmerby
+- New York
+- Los Angeles
+- San Francisco
+- Honk Kong 
+- Berlin 
+- Hamburg
+- [Munich, München]
+- Bad Oeynhausen
+
+---
+type: entity
+name: newskeys
+automatically_extensible: yes
+values:
+- bitcoin
+- fussball
+- football
+- artificial intelligence
+- künstliche intelligenz
+- google
+- android
+- sport
+- donald trump
+- politik
+- börse
+
+
+---
+type: entity
+name: names
+automatically_extensible: yes
+values:
+- donald trump
+- angela merkel
+- elon musk
+- fabian hambüchen
+- chris tall
+- max von laue
+- max born
+- peter zwegert
+- trump
+- putin
+- scheuer
+- zielke
+- horst seehofer
+- söder
+- nicola beer
+- martin schulz
+- gregor
+
+
+---
+type: entity
+name: musicTrack
+automatically_extensible: yes
+values:
+- I'm Not in Love
+- So Long, Good-Bye
+- die letzte träne die ich hab
+- Here without You
+- A Beautiful Lie
+- Closer to the Edge
+- This Is War
+- Crying in the Rain
+- Du, du, du
+- Slow Down
+- Rescue Me
+
+
+---
+type: entity
+name: musicArtist
+automatically_extensible: yes
+values:
+- Boards of Canada
+- Easy Star All-Stars
+- The Glitch Mob
+- adele
+- kontra k
+- adel tawil
+- sido
+- eskimo callboy
+- rolling stones
+- beatles
+- dame
+- justin bieber
+- selena gomez
+- raf camora
+- blacktop mojo
+- 3 Doors Down
+- 30 Seconds to Mars

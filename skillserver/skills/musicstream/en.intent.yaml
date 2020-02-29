@@ -1,0 +1,13 @@
+---
+type: intent
+name: music
+slots:
+  - name: artist
+    entity: snips/musicArtist
+
+  - name: track
+    entity: snips/musicTrack
+
+utterances:
+  - play [track](hello) by [artist](adele)
+  - play music by [artist](adele)

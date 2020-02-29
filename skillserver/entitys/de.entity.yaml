@@ -1,0 +1,19 @@
+---
+type: entity
+name: room
+automatically_extensible: yes
+values:
+- Schlafzimmer
+- Wohnzimmer
+- [Garten, Terasse, Balkon]
+
+---
+type: entity
+name: appointments
+automatically_extensible: yes
+values:
+- Schule
+- Freunde treffen
+- Party
+- partying
+- Kollegen treffen
