@@ -1,0 +1,12 @@
+---
+type: intent
+name: openapps
+slots:
+  - name: appnames
+    entity: appname
+
+utterances:
+  - öffne [appnames](Galerie)
+  - bitte öffne [appnames](Whatsapp)
+  - bitte [appnames](Facebook) öffnen
+  - öffne die [appnames](Galerie)
