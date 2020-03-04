@@ -79,6 +79,7 @@ TARGET_LIST = [
     Target([['span', 'class="tsp-di tsp-dt tsp-cp"']]),
     Target([['span', 'class="qv3Wpe"']]),
     Target([['span', 'class="e24Kjd"']]),
+    Target([['li', 'class="TrT0Xe"']]),
 ]
 
 HEADER_PAYLOAD = {  # Enables requests.get() to See the Same Web Page a Browser Does.
