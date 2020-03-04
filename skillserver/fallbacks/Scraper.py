@@ -80,6 +80,8 @@ TARGET_LIST = [
     Target([['span', 'class="qv3Wpe"']]),
     Target([['span', 'class="e24Kjd"']]),
     Target([['li', 'class="TrT0Xe"']]),
+    Target([['div', 'class="Z0LcW"']]),
+    Target([['div', 'class="ayqGOc"']]),
 ]
 
 HEADER_PAYLOAD = {  # Enables requests.get() to See the Same Web Page a Browser Does.
