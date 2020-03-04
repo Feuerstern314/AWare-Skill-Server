@@ -1,0 +1,15 @@
+---
+type: intent
+name: openapps
+slots:
+  - name: name
+    entity: names
+
+utterances:
+  - rufe [name](Mama) an
+  - bitte rufe [name](Conner) an
+  - bitte [name](Oliver) anrufen
+  - . [name](Papa) anrufen
+  - .[name](Mama) anrufen
+  - starte einen Anruf mit [name](Papa)
+  - starte einen Anruf zu [name](Papa)

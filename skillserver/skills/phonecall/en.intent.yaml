@@ -1,0 +1,14 @@
+---
+type: intent
+name: openapps
+slots:
+  - name: name
+    entity: names
+
+utterances:
+  - call [name](Mom)
+  - please call [name](Conner)
+  - please start a call with [name](Oliver)
+  - please start a call to [name](Dad)
+  - .[name](Dad) call
+  - . [name](Dad) call

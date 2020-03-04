@@ -202,8 +202,15 @@ class serverHelpers:
 			self.nlu_parsing = nlu_engine.parse(self.text)
 		except Exception as e:
 			print(e)
+			self.translate(src = True)
+
+			try:
+				nlu_engine = SnipsNLUEngine.from_path(str(self.lang))
+				self.nlu_parsing = nlu_engine.parse(self.text)
+			except Exception as e:
+				print(e)
+
 			nlu_engine = SnipsNLUEngine.from_path("en")
-			self.translate()
 			self.nlu_parsing = nlu_engine.parse(self.translated)
 
 		self.nlu_parsing["lang"] = self.lang
@@ -320,7 +327,8 @@ def foo(data = None):
 				helper.info("Fallback succesfull")
 				return results
 		
-		helper.nlu2()
+		if(helper.lang != "en"):
+			helper.nlu2()
 
 		nlu_results = json.loads(json.dumps(helper.nlu_parsing, indent=2))
 		skill = nlu_results["intent"]["intentName"]
