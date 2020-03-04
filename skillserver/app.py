@@ -148,6 +148,7 @@ class serverHelpers:
 		self.translate()
 		try:
 			answer = fallbackHandler(self.translated,json.dumps(self.data, indent=2, ensure_ascii=False))
+			self.nlu_parsing["skill_category"] = "fallback"
 			if(answer != False and answer != "False"):
 				answer = str(answer)
 				print(answer)
@@ -313,6 +314,7 @@ def foo(data = None):
 			if(answer_url != None):
 					helper.nlu_parsing["answer_url"] = answer_url
 			helper.nlu_parsing["speak"] = helper.parseAnswer(answer)
+			helper.nlu_parsing["skill_category"] = "fallback"
 			if(len(helper.nlu_parsing["speak"]) > 1):
 				results = json.dumps(helper.nlu_parsing, indent=2, ensure_ascii=False)
 				helper.info("Fallback succesfull")
@@ -361,6 +363,7 @@ def foo(data = None):
 				if(answer_url != None):
 						helper.nlu_parsing["answer_url"] = answer_url
 				helper.nlu_parsing["speak"] = helper.parseAnswer(answer)
+				helper.nlu_parsing["skill_category"] = "fallback"
 				if(len(helper.nlu_parsing["speak"]) > 1):
 					results = json.dumps(helper.nlu_parsing, indent=2, ensure_ascii=False)
 					helper.info("Fallback succesfull")
