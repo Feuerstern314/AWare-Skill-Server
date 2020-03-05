@@ -47,7 +47,12 @@ def beginn(data, intents):
 						#print(x["symbol"])
 						with urllib.request.urlopen("https://financialmodelingprep.com/api/v3/quote/" + x["symbol"]) as url2:
 							datas2 = json.loads(url2.read().decode())
-							answer += x["name"] + ": " + str(datas2[0]["price"]) + " $\n\n"
+							prices = str(datas2[0]["price"])
+							price1 = prices.split(".")[0]
+							price2 = prices.split(".")[1]
+							price2 = price2[0] + price2[1]
+							prices = price1 + "." + price2
+							answer += x["name"] + ": " + prices + " $\n\n"
 
 	except Exception as e:
 		print(e)
