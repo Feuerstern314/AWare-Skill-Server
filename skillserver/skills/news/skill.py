@@ -40,8 +40,11 @@ def beginn(data, intents):
 			datas = json.loads(url.read().decode())
 			articles = datas["articles"]
 			answer = ""
+			limit = 0
 			for x in articles:
-				answer += x["description"] + "\n\n"
+				if(limit < 5):
+					answer += x["description"] + "\n\n"
+					limit = limit + 1
 
 			if(answer != ""):
 				return answer
@@ -54,8 +57,11 @@ def beginn(data, intents):
 			datas = json.loads(url.read().decode())
 			articles = datas["articles"]
 			answer = ""
+			limit = 0
 			for x in articles:
-				answer += x["description"] + "\n\n"
+				if(limit < 5):
+					answer += x["description"] + "\n\n"
+					limit = limit + 1
 
 			if(answer != ""):
 				return answer

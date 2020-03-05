@@ -99,3 +99,27 @@ values:
 - blacktop mojo
 - 3 Doors Down
 - 30 Seconds to Mars
+
+
+---
+type: entity
+name: appname
+automatically_extensible: yes
+values:
+- Whatsapp
+- Telegram
+- Snapchat
+- Google News
+- Nextcloud Talk
+- Nextcloud
+- Instagram
+- Signal
+- Session
+- Youtube
+- Brawl stars
+- Clash royale
+- clash of clans
+- brave
+- Canva
+- Discord
+- drive

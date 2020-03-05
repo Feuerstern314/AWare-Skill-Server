@@ -1,0 +1,12 @@
+---
+type: intent
+name: stockmarket
+slots:
+  - name: appnames
+    entity: appname
+
+utterances:
+  - whats the price of [appnames](Bitcoin)
+  - whats the price of [appnames](Bitcoin cash)
+  - how much is [appnames](Alphabet) value
+  - whats the [appnames](Amazon) worth

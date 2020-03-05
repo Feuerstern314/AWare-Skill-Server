@@ -1,0 +1,12 @@
+---
+type: intent
+name: stockmarket
+slots:
+  - name: appnames
+    entity: appname
+
+utterances:
+  - wieviel ist ein [appnames](bitcoin) wert
+  - was kostet ein [appnames](bitcoin cash)
+  - was ist [appnames](amazon) wert
+  - wieviel kostet eine [appnames](alphabet) aktie

@@ -16,4 +16,7 @@ utterances:
   - was wird das wetter sein in [city](Hamburg) [datetime](morgen)
   - wie wird das wetter sein [city](berlin) [datetime](heute abend)
   - wie ist das wetter [datetime](Donnerstag) in [city](Bad Oeynhausen)
+  - wetter [datetime](Donnerstag) in [city](Vimmerby)
+  - wetter in [city](Marianelund)
+
 

@@ -7,6 +7,9 @@ slots:
 
 utterances:
   - öffne [appnames](Galerie)
+  - bitte öffne [appnames](Google News)
+  - .[appnames](Nextcloud Talk) öffnen
+  - . [appnames](Nextcloud Talk) öffnen
   - bitte öffne [appnames](Whatsapp)
   - bitte [appnames](Facebook) öffnen
   - öffne die [appnames](Galerie)

@@ -30,3 +30,5 @@ utterances:
   - am [datetime](samstag) gehe ich [hobbys](feiern)
   - mach einen neuen Termin und nenne ihn [hobbys](Fussball) am [datetime](Sonntag den 15.10.2020)
   - füge [hobbys](reiten) zu meinem kalender hinzu am [datetime](samstag)
+  - sag meinem Kalendar, dass ich [datetime](samstag um 15 Uhr) [hobbys](reiten) gehen werde
+  - trag in meinen Kalendar ein, dass ich [datetime](Dienstag um 12 Uhr) ins [hobbys](Museum) gehen werde

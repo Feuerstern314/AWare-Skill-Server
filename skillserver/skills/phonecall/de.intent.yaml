@@ -11,5 +11,7 @@ utterances:
   - bitte [name](Oliver) anrufen
   - . [name](Papa) anrufen
   - .[name](Mama) anrufen
+  - . [name](Firmenhandy) anrufen
+  - .[name](Firma) anrufen
   - starte einen Anruf mit [name](Papa)
   - starte einen Anruf zu [name](Papa)
