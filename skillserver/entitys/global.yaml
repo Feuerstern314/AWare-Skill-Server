@@ -33,30 +33,16 @@ values:
 - donald trump
 - politik
 - börse
+- zoo
+- zebra
+- Wald
+- Klimawandel
+- global warming
+- Bäume
+- Pflanzen
+- Virus
+- Gesundheit
 
-
----
-type: entity
-name: names
-automatically_extensible: yes
-values:
-- donald trump
-- angela merkel
-- elon musk
-- fabian hambüchen
-- chris tall
-- max von laue
-- max born
-- peter zwegert
-- trump
-- putin
-- scheuer
-- zielke
-- horst seehofer
-- söder
-- nicola beer
-- martin schulz
-- gregor
 
 
 ---

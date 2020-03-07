@@ -36,6 +36,7 @@ def beginn(data, intents):
 	answer = ""
 
 	appnames = getSlotbyName("appnames",intents)
+	quantity = getSlotbyName("quantity",intents)
 
 	if(appnames == None):
 		return False
@@ -47,7 +48,10 @@ def beginn(data, intents):
 						#print(x["symbol"])
 						with urllib.request.urlopen("https://financialmodelingprep.com/api/v3/quote/" + x["symbol"]) as url2:
 							datas2 = json.loads(url2.read().decode())
-							prices = str(datas2[0]["price"])
+							prices = datas2[0]["price"]
+							if(quantity != None):
+								prices = prices * float(quantity)
+							prices = str(prices)
 							price1 = prices.split(".")[0]
 							price2 = prices.split(".")[1]
 							price2 = price2[0] + price2[1]

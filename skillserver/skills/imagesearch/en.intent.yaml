@@ -1,0 +1,15 @@
+---
+type: intent
+name: images
+slots:
+  - name: things
+    entity: names
+
+utterances:
+  - show me images of [things](Affen)
+  - pictures of [things](Bonobos)
+  - display an image of [things](Zoo)
+  - show me what a [things](ship) looks like
+  - what does a [things](Flugzeug) looks
+  - show me how [things](Haus in Schweden) looks
+  - look of [things](Tannenbaum)

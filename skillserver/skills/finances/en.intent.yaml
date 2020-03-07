@@ -5,8 +5,11 @@ slots:
   - name: appnames
     entity: appname
 
+  - name: quantity
+    entity: snips/number
+
 utterances:
-  - whats the price of [appnames](Bitcoin)
-  - whats the price of [appnames](Bitcoin cash)
+  - whats the price of [quantity](two) [appnames](Bitcoin)
+  - whats the price of [quantity](one) [appnames](Bitcoin cash)
   - how much is [appnames](Alphabet) value
-  - whats the [appnames](Amazon) worth
+  - whats the [appnames](Amazon) worth of [quantity](ten) aktien

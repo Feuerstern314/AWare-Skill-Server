@@ -46,6 +46,13 @@ def add_entity(name):
 	myfile = open("entitys/" + name + ".entity.yaml","r+")
 	mydef.write(myfile.read().lower())
 	myfile.close()
+	fileList = glob("entitys/*.global.yaml")
+	for x in fileList:
+		myfile = open(x,"r+")
+		mydef.write(myfile.read().lower())
+		myfile.close()
+		mydef.write("\n")
+
 	myfile = open("entitys/global.yaml","r+")
 	mydef.write(myfile.read().lower())
 	myfile.close()

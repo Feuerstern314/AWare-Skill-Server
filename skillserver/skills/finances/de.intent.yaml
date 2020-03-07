@@ -5,8 +5,15 @@ slots:
   - name: appnames
     entity: appname
 
+  - name: quantity
+    entity: snips/number
+
 utterances:
-  - wieviel ist ein [appnames](bitcoin) wert
-  - was kostet ein [appnames](bitcoin cash)
+  - wieviel ist [quantity](ein) [appnames](bitcoin) wert
+  - was kostet [quantity](ein) [appnames](bitcoin cash)
   - was ist [appnames](amazon) wert
-  - wieviel kostet eine [appnames](alphabet) aktie
+  - wieviel kostet [quantity](eine) [appnames](alphabet) aktie
+  - wieviel sind [quantity](drei) [appnames](bitcoin) s wert
+  - was kosten [quantity](zehn) [appnames](bitcoin cash)
+  - was sind [quantity](fünf) [appnames](amazon) aktien wert
+  - wieviel kosten [quantity](fünfzehn) [appnames](alphabet) aktien

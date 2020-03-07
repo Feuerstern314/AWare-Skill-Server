@@ -1,0 +1,25 @@
+---
+type: intent
+name: images
+slots:
+  - name: things
+    entity: names
+
+utterances:
+  - Zeig mir Bilder von [things](Affen)
+  - Bilder von [things](Bonobos)
+  - Zeig mir Bilder von einem [things](Zoo)
+  - Zeig mir wie ein [things](Schiff) aussieht
+  - wie sieht ein [things](Flugzeug) aus
+  - Zeig mir wie ein [things](Haus in Schweden) aussieht
+  - aussehen eines [things](Tannenbaum)
+  - Zeig mir Bilder von [things](Bonobos)
+  - Bilder von [things](Schiffen)
+  - Zeig mir Bilder von einem [things](U-boot)
+  - Zeig mir wie ein [things](Taucher) aussieht
+  - wie sieht ein [things](Hund) aus
+  - Zeig mir wie das [things](roote Meer) aussieht
+  - aussehen eines [things](Buchsbaumes)
+  - Zeig mir Bilder von [things](Donald trump)
+  - Zeig mir Bilder von [things](angela Merkel)
+  - Zeig mir Bilder von [things](Dagobert Duck)
