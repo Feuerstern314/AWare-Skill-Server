@@ -36,6 +36,7 @@ def beginn(data, intents):
 	answer = ""
 
 	appnames = getSlotbyName("appnames",intents)
+	appnames = appnames[:-2]
 	quantity = getSlotbyName("quantity",intents)
 
 	if(appnames == None):

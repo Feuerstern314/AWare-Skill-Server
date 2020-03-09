@@ -19,3 +19,10 @@ utterances:
   - wieviel kosten [quantity](fünfzehn) [appnames](alphabet) aktien
   - was kosten [quantity](fünfzehn) [appnames](amazon) aktien
   - was sind [quantity](dreizehn) [appnames](Tesla) aktien wert
+  - was ist [quantity](ein) [appnames](bitcoin) wert
+  - wieviel kosten [quantity](drei) [appnames](bitcoin cash)
+  - wieviel sind [appnames](amazon) aktien wert
+  - was kostet [quantity](eine) aktie von [appnames](alphabet)
+  - wie steht der aktienkurs von [appnames](alphabet)
+  - was ist der aktienkurs von [appnames](tesla)
+  - wie stehen die aktien von [appnames](alphabet)
