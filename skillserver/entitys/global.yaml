@@ -44,25 +44,6 @@ values:
 - Gesundheit
 
 
-
----
-type: entity
-name: musicTrack
-automatically_extensible: yes
-values:
-- I'm Not in Love
-- So Long, Good-Bye
-- die letzte träne die ich hab
-- Here without You
-- A Beautiful Lie
-- Closer to the Edge
-- This Is War
-- Crying in the Rain
-- Du, du, du
-- Slow Down
-- Rescue Me
-
-
 ---
 type: entity
 name: musicArtist

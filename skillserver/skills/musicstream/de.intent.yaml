@@ -3,7 +3,7 @@ type: intent
 name: music
 slots:
   - name: artist
-    entity: musicArtist
+    entity: names
 
   - name: track
     entity: musicTrack
