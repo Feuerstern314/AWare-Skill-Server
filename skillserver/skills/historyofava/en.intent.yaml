@@ -1,0 +1,16 @@
+---
+type: intent
+name: parents
+utterances:
+  - who is your father
+  - who is your mother
+  - who has build you
+
+
+---
+type: intent
+name: creationtime
+utterances:
+  - when was you born
+  - how old are you
+  - whats the time you are existing

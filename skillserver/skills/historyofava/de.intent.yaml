@@ -1,0 +1,16 @@
+---
+type: intent
+name: parents
+utterances:
+  - wer ist dein vater
+  - wer ist deine mutter
+  - wer hat dich erschaffen
+
+
+---
+type: intent
+name: creationtime
+utterances:
+  - wann wurdest du geboren
+  - wie alt bist du
+  - wie lange gibt es dich
