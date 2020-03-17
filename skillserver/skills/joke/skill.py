@@ -8,17 +8,14 @@ lang = None
 def generate_answer(intent, url):
 	global lang
 	answer = None
-	
-	Random = random.randrange(1, 50)	
+	jokesList = []	
 	
 	with open(url, 'r') as json_file:
 		reader = json.load(json_file)
 		for row in reader:
-			if(row['id'] == Random):
-				answer = row['body']
-				break
-			else:
-				continue
+			jokesList.append(row["body"])
+			
+	answer = random.choice(jokesList)
 
 	return answer
 
