@@ -1,0 +1,18 @@
+---
+type: intent
+name: jokes_general
+utterances:
+  - tell me a joke
+  - tell me another joke
+  - tell me a short joke
+  - tell me another short joke
+
+
+---
+type: intent
+name: jokes_blonde
+utterances:
+  - tell me a joke about blondes
+  - tell me another joke about blondes
+  - tell me a blondes joke
+  - tell me another blondes joke
