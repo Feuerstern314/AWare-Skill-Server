@@ -1,0 +1,18 @@
+---
+type: intent
+name: jokes_general
+utterances:
+  - erzähl mir einen Witz
+  - erzähl mir noch einen Witz
+  - erzähl mir einen kurzen Witz
+  - erzähl mir noch einen kurzen Witz
+
+
+---
+type: intent
+name: jokes_blonde
+utterances:
+  - erzähl mir einen Witz über Blondinen
+  - erzähl mir noch einen Witz über Blondinen
+  - erzähl mir einen Blondinen Witz
+  - erzähl mir noch einen Blondinen Witz
