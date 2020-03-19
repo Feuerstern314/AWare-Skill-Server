@@ -1,0 +1,16 @@
+---
+type: intent
+name: thanks
+utterances:
+  - thanks
+  - thank you
+
+
+---
+type: intent
+name: shutup
+utterances:
+  - stop
+  - quiet
+  - be quiet
+  - shut up

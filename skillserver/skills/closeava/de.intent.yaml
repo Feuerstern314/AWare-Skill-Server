@@ -1,0 +1,26 @@
+---
+type: intent
+name: thanks
+utterances:
+  - danke
+  - dankeschön
+  - danke dir
+  - vielen dank
+  - danke ava
+  - ich danke dir
+  - habe vielen dank
+  - dankeschön ava
+
+
+---
+type: intent
+name: shutup
+utterances:
+  - stop
+  - sei still
+  - sei ruhig
+  - halt die schnauze
+  - halt die klappe
+  - halts maul
+  - halt die fresse
+  - schnauze

@@ -3,18 +3,15 @@ type: intent
 name: date
 utterances:
   - wie spät ist es
+  - wie spät ist das
+  - wie spät
   - sag mir die aktuelle zeit
   - hast du die zeit
   - wie spät ist es
-  - welchen tag haben wir heute
   - sag mir die zeit bitte
-  - welches datum haben wir
-  - welcher tag ist es
   - was sagt die uhr
   - welche zeit ist auf der uhr
   - zeit bitte
-  - datum bitte
-  - welches datum
   - was ist die zeit
 
 
