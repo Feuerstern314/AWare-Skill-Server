@@ -1,4 +1,4 @@
-# Documentation A\\Ware Skill Server
+# [Documentation A\\Ware Skill Server](https://documentation.a-ware.io/?docs=skill-server)
 
 ***This software is still in development and not ready for production environment yet!***
 
