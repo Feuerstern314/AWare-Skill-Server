@@ -296,7 +296,7 @@ def foo(data = None):
 		
 	
 	try:
-		if(data["text"] == None or len(data["text"]) <= 5):
+		if(data["text"] == None or len(data["text"]) < 2):
 			return "No text given"
 		
 	except:
